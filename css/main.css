@@ -41,18 +41,28 @@ html {
   font-size: 330px;
   left: calc(50% - 165px);
   color: #000;
-  
 }
-  
 
-@-webkit-keyframes wiggle {
+@-webkit-@keyframes wiggle {
 
   0% {
-      -webkit-transform: translate(600px,-300px);
+    transform: rotate(15deg);
   }
-
+  
+  35% {
+    transform: rotate(-10deg);
+  }
+  
+  50% {
+    transform: rotate(10deg);
+  }
+  
+  65% {
+    transform: rotate(-10deg);
+  }
+  
   100% {
-      -webkit-transform: translate(50px,200px);
+    transform: rotate(15deg);
   }
 }
 
